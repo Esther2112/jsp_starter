@@ -1,4 +1,4 @@
-package com.jsp.chapter01.servlet;
+package com.jsp.chap01.servlet;
 
 /*
     역할: HTTP 요청과 응답 데이터를 쉽게 처리할 수 있게 해주는 자바의 API
