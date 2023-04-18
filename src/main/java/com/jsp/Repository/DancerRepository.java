@@ -37,16 +37,22 @@ public class DancerRepository {
     }
 
     // 댄서 맵을 리스트로 변환해서 리턴하는 메서드
-    public List<Dancer> findAll(){
+    public List<Dancer> findAll() {
+
         return new ArrayList<>(dancerMap.values());
-        /*
-        return dancerMap.values().stream()
-                .collect(Collectors.toList());
-        */
-/*        List<Dancer> dancerList = new ArrayList<>();
-        for (String key : dancerMap.keySet()) {
-            dancerList.add(dancerMap.get(key));
+
+        /*return dancerMap.values().stream()
+                .collect(Collectors.toList());*/
+
+        /*List<Dancer> dancerList = new ArrayList<>();
+        for (Dancer dancer : dancerMap.values()) {
+            dancerList.add(dancer);
         }
-  */
+        return dancerList;*/
+    }
+
+    //댄서 맵에서 댄서 객체를 삭제하는 기능
+    void delete(String name){
+        dancerMap.remove(name);
     }
 }

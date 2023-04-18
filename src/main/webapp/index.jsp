@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Welcome! 꾸꾸까까야</h1>
-    
+    <a href = "http://localhost:8383/dancer/join">댄서 등록하러 가보자</a>
 </body>
 </html>
