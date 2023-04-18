@@ -1,7 +1,6 @@
 package com.jsp.chap04;
 
 import com.jsp.Repository.DancerRepository;
-import com.jsp.chap01.servlet.HelloServlet;
 import com.jsp.entity.Dancer;
 
 import javax.servlet.RequestDispatcher;
